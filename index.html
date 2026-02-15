@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="manifest" href="manifest.json">
+  <title>Lmk.Corp Manager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+<script type="importmap">
+{
+  "imports": {
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^4.3.4",
+    "@capacitor/core": "https://esm.sh/@capacitor/core@^6.2.0",
+    "@capacitor/cli": "https://esm.sh/@capacitor/cli@^6.2.0",
+    "@capacitor/app": "https://esm.sh/@capacitor/app@^6.0.2",
+    "@capacitor/share": "https://esm.sh/@capacitor/share@^6.0.2",
+    "@capacitor/filesystem": "https://esm.sh/@capacitor/filesystem@^6.0.0",
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "vite": "https://esm.sh/vite@^5.4.14",
+    "url": "https://esm.sh/url@^0.11.4",
+    "@capgo/capacitor-native-biometric": "https://esm.sh/@capgo/capacitor-native-biometric@^6.0.0",
+    "@capacitor-community/contacts": "https://esm.sh/@capacitor-community/contacts@^6.0.0",
+    "jspdf-autotable": "https://esm.sh/jspdf-autotable@^5.0.7",
+    "jspdf": "https://esm.sh/jspdf@^4.1.0",
+    "fs": "https://esm.sh/fs@^0.0.1-security",
+    "path": "https://esm.sh/path@^0.12.7"
+  }
+}
+</script>
+<style>
+  /* Critical CSS needed before Tailwind loads */
+  body { background-color: #f8fafc; color: #0f172a; }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="bg-slate-50 text-slate-900">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>

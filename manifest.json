@@ -1,0 +1,23 @@
+
+{
+  "name": "Nica.Lmk.Corp Manager",
+  "short_name": "Nica.Lmk.Corp",
+  "description": "Professional debt and payment tracker integrated with Google Sheets.",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2845/2845944.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2845/2845944.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
